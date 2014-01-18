@@ -2,22 +2,24 @@
 int main ()
 {
 	int c;
-	int flag = 0;
+	int inword = 0;
 	while((c = fgetc(stdin)) != EOF)
 	{
 		if(c == ' ' || c == '	')
 		{
-			flag = 1;
-			if(flag)
+			if(inword)
 			{
-				printf("\n");
+				putchar(']');
+				putchar('\n');
 			}
+			inword = 0;
 		}
 		else
 		{
 			putchar(c);
-			flag = 0;
+			inword = 1;
 		}
+
 		if(c=='\n')
 			break; 
 	}
