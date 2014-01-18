@@ -6,6 +6,9 @@ int main ()
 	int inspace = 1;
 	while((c = fgetc(stdin)) != EOF)
 	{
+		if(c == '+' || c == '-' || c == '=')
+		{
+		}
 		if(c == ' ' || c == '	' || c == '\n')
 		{
 			if(inword)
@@ -25,7 +28,6 @@ int main ()
 			inspace = 0;
 			putchar(c);
 			inword = 1;
-
 		}
 	}
 	return 0;
