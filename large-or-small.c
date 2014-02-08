@@ -11,11 +11,9 @@ int main (){
 		if(value == answer){
 			printf("Congratulations!!");
 			break;
-		}
-		else if(value < answer){	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
+		}else if(value < answer){	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
 			printf("small...");
-		}
-		else{					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
+		}else{					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
 			printf("large...");
 		}
 	}
