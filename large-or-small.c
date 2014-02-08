@@ -16,7 +16,7 @@ int main()
       break;
     } else if (value < answer) {    // “š‚¦‚ª‘å‚«‚¢‚Æ‚«
       printf("small...\n");
-    } else if (answer < value) {                        // “š‚¦‚ª¬‚³‚¢‚Æ‚«
+    } else if (answer < value) {    // “š‚¦‚ª¬‚³‚¢‚Æ‚«
       printf("large...\n");
     } else {
       //fprintf();
