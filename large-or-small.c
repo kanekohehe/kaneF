@@ -9,7 +9,7 @@ int main()
     int answer;
     printf("value = %d\n", value);
     printf("? ");
-	counter += 1;
+    counter++;
     scanf("%d", &answer);
     if (value == answer) {
       printf("%dChallenge!! Congratulations!!\n", counter);
