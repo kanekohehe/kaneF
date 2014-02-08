@@ -3,7 +3,7 @@
 int main ()
 {
   printf("printf\n");
-  fprintf(stdout, "fprintf stdout");
-  fprintf(stderr, "fprintf stderr");
+  fprintf(stdout, "fprintf stdout\n");
+  fprintf(stderr, "fprintf stderr\n");
   return 0;
 }
