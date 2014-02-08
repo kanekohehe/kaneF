@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (){
+int main ()
+{
 	int value = (arc4random() % 5) + 1;
-	int answer;
-	while(1){
-		printf("value = %d\n",value);
-		printf("?");
-		scanf("%d",&answer);
-		if(value == answer) {
-		  printf("Congratulations!!");
+	while (1) {
+		int answer;
+		printf("value = %d\n", value);
+		printf("? ");
+		scanf("%d", &answer);
+		if (value == answer) {
+		  printf("Congratulations!!\n");
 		  break;
-		} else if(value < answer) {	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
-		  printf("small...");
+		} else if (value < answer) {	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
+		  printf("small...\n");
 		} else {					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
-		  printf("large...");
+		  printf("large...\n");
 		}
 	}
 	return 0;
