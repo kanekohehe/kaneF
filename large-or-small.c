@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main ()
+int main()
 {
 	int value = (arc4random() % 5) + 1;
 	while (1) {
@@ -14,7 +14,7 @@ int main ()
 		  break;
 		} else if (value < answer) {	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
 		  printf("small...\n");
-		} else {					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
+		} else {						// “š‚¦‚ª¬‚³‚¢‚Æ‚«
 		  printf("large...\n");
 		}
 	}
