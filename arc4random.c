@@ -3,7 +3,9 @@
 
 int main ()
 {
-	int a = arc4random() % 99;
+	
+	int a = arc4random() % 100;
 	printf("%d\n",a);
+	
 	return 0;
 }
