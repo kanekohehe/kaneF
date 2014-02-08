@@ -8,13 +8,13 @@ int main (){
 		printf("value = %d\n",value);
 		printf("?");
 		scanf("%d",&answer);
-		if(value == answer){
-			printf("Congratulations!!");
-			break;
-		}else if(value < answer){	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
-			printf("small...");
-		}else{					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
-			printf("large...");
+		if(value == answer) {
+		  printf("Congratulations!!");
+		  break;
+		} else if(value < answer) {	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
+		  printf("small...");
+		} else {					// “š‚¦‚ª¬‚³‚¢‚Æ‚«
+		  printf("large...");
 		}
 	}
 	return 0;
