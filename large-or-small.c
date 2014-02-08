@@ -18,10 +18,10 @@ int main()
       printf("small...\n");
     } else if (answer < value) {                        // “š‚¦‚ª¬‚³‚¢‚Æ‚«
       printf("large...\n");
-	}else {
+    } else {
       //fprintf();
       abort();
-	}
+    }
   }
   return 0;
 }
