@@ -3,13 +3,13 @@
 
 int main ()
 {
+	int value = (arc4random() % 5) + 1;
+	int answer;
 	while(1)
 	{
-		int value = (arc4random() % 5) + 1;
-		int answer;
+		printf("value = %d\n",value);
 		printf("?");
 		scanf("%d",&answer);
-		
 		if(value == answer)
 		{
 			printf("Congratulations!!");
