@@ -14,11 +14,14 @@ int main()
     if (value == answer) {
       printf("%dChallenge!! Congratulations!!\n", counter);
       break;
-    } else if (value < answer) {	// “š‚¦‚ª‘å‚«‚¢‚Æ‚«
+    } else if (value < answer) {    // “š‚¦‚ª‘å‚«‚¢‚Æ‚«
       printf("small...\n");
-    } else {						// “š‚¦‚ª¬‚³‚¢‚Æ‚«
+    } else if (answer < value) {                        // “š‚¦‚ª¬‚³‚¢‚Æ‚«
       printf("large...\n");
-    }
+	}else {
+      //fprintf();
+      abort();
+	}
   }
   return 0;
 }
